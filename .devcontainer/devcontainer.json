@@ -1,0 +1,15 @@
+{
+  "name": "vite-svelte",
+  "dockerComposeFile": "../docker-compose.yml",
+  // docker-compose.yml の中のどのサービスに VS Code が接続するか(=workspaceを指定している)
+  "service": "node",
+  // VS Code がコンテナに接続するときに開くパス
+  "workspaceFolder": "/vite-svelte",
+  // インストールする拡張機能
+  "extensions": [
+    // svelte系
+    "svelte.svelte-vscode",
+    // その他Util
+    "nemesv.copy-file-name"
+  ],
+}
